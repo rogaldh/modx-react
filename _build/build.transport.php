@@ -1,6 +1,6 @@
 <?php
 
-$pkg_name = 'SamplePackage';
+$pkg_name = 'modxReact';
 
 /* define package */
 define('PKG_NAME', $pkg_name);
@@ -58,13 +58,13 @@ include_once $sources['builder_includes'] . 'namespace.php';
  */
 # include_once $sources['builder_includes'] . 'mediasources.php';
 
-/* 
+/*
  * Create system settings via vehicle
  */
-# include_once $sources['builder_includes'] . 'system.settings.php';
+include_once $sources['builder_includes'] . 'system.settings.php';
 
 /*
- * Create custom system settings via vehicle 
+ * Create custom system settings via vehicle
  */
 # include_once $sources['builder_includes'] . 'system.events.php';
 
@@ -77,7 +77,7 @@ include_once $sources['builder_includes'] . 'category.php';
 # include_once $sources['builder_includes'] . 'plugins.php';
 
 /* add snippets */
-# include_once $sources['builder_includes'] . 'snippets.php';
+include_once $sources['builder_includes'] . 'snippets.php';
 
 /* add chunks */
 # include_once $sources['builder_includes'] . 'chunks.php';
@@ -92,7 +92,7 @@ $vehicle = $builder->createVehicle($category,$attr);
 /*
  * Adding sources (3 sources by default)
  */
-# include_once $sources['resolvers'] . 'resolver.sources.php';
+include_once $sources['resolvers'] . 'resolver.sources.php';
 
 /*
  * Adding resolvers
@@ -105,7 +105,7 @@ $modx->log(modX::LOG_LEVEL_INFO,'Adding in PHP resolvers...'); flush();
 $builder->putVehicle($vehicle);
 
 /*
- * Load Menu 
+ * Load Menu
  */
 # include_once $sources['builder_includes'] . 'menu.php';
 

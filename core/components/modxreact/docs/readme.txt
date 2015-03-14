@@ -1,7 +1,7 @@
 --------------------
 Extra: modx-react
 --------------------
-Version: 0.0.1
+Version: 0.1.0
 Created: March 14th, 2015
 Author: proxyfabio <proxyfabio@gmail.com>
 License: GNU GPLv2 (or later at your option)

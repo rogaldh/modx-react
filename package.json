@@ -1,0 +1,23 @@
+{
+  "name": "modx-react",
+  "version": "0.1.1",
+  "description": "Server side rendering for react",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/proxyfabio/modx-react.git"
+  },
+  "keywords": [
+    "revolution",
+    "react",
+    "node"
+  ],
+  "author": "proxyfabio",
+  "license": "GPLv2",
+  "bugs": {
+    "url": "https://github.com/proxyfabio/modx-react/issues"
+  },
+  "homepage": "https://github.com/proxyfabio/modx-react"
+}
